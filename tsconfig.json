@@ -23,6 +23,8 @@
         "paths": {
             "@presentation/*": ["src/presentation/*"],
             "@presentation": ["src/presentation/index"],
+            "@domain": ["src/domain/index"],
+            "@domain/*": ["src/domain/*"],
             "@/tests/*": ["tests/*"],
         }
     }
