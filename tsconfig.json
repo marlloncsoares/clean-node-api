@@ -12,6 +12,7 @@
         "allowSyntheticDefaultImports": true,
         "sourceMap": true,    
         "baseUrl": "./",
+        "rootDirs": ["src", "tests"],
         "incremental": true,
         "skipLibCheck": true,
         "strictNullChecks": false,
@@ -20,7 +21,9 @@
         "forceConsistentCasingInFileNames": false,
         "noFallthroughCasesInSwitch": false,
         "paths": {
-            "@presentation/*": ["src/presentation/*"]
+            "@presentation/*": ["src/presentation/*"],
+            "@presentation": ["src/presentation/index"],
+            "@/tests/*": ["tests/*"],
         }
     }
 }

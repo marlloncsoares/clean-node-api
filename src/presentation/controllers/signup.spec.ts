@@ -1,5 +1,5 @@
 import { MissingParamError } from '@presentation/errors'
-import { SignUpController } from './signup'
+import { SignUpController } from '@presentation/controllers'
 
 describe('SignUp Controller', () => {
   test('Should return 400 if no name is provided', () => {
