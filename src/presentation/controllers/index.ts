@@ -1,1 +1,1 @@
-export { default as SignUpController } from './signup'
+export { SignUpController } from './signup'
